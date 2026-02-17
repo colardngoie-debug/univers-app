@@ -1,0 +1,9 @@
+
+{
+  "name": "Univers",
+  "description": "A high-performance social ecosystem blending TikTok, Instagram, and Facebook with Gemini-powered neural creative tools.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
