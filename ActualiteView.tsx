@@ -1,7 +1,7 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import { Newspaper, ShieldCheck, AlertCircle, ExternalLink, MessageCircle, Share2, PlusCircle, Globe, Volume2, VolumeX } from 'lucide-react';
-import { Post } from '../types';
+import { Post } from './types';
 
 interface ActualiteViewProps {
   posts: Post[];

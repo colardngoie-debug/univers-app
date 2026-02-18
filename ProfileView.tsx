@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Table, X, Camera, Sun, Moon, MapPin, GraduationCap, Wallet, Zap, Heart, LogOut, Trash2, Ban, CreditCard, Bitcoin, ShieldCheck } from 'lucide-react';
-import { Post, Theme } from '../types';
-import { CertifiedBadge } from '../App';
+import { Post, Theme } from './types';
+import { CertifiedBadge } from './App';
 
 interface ProfileViewProps {
   posts: Post[];

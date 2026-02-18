@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { X, Link as LinkIcon, MessageSquare, Facebook, Instagram, Twitter, MessageCircle } from 'lucide-react';
-import { Post } from '../types';
+import { Post } from './types';
 
 interface ShareModalProps {
   post: Post;

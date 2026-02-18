@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { X, Heart, Send, MessageCircle, RadioIcon } from 'lucide-react';
-import { Post } from '../types';
+import { Post } from './types';
 
 interface CommentModalProps {
   post: Post;

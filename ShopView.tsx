@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { ShoppingBag, MessageSquare, PlusCircle, Tag, ChevronLeft, ChevronRight } from 'lucide-react';
-import { Post, Theme } from '../types';
+import { Post, Theme } from './types';
 
 interface ShopViewProps {
   posts: Post[];

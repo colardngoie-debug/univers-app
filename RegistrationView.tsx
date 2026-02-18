@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Mail, ArrowRight, Key, ShieldCheck, User, UserPlus } from 'lucide-react';
-import { supabase } from '../lib/supabase';
+import { supabase } from './supabase';
 
 interface RegistrationViewProps {
   onRegister: (user: any) => void;

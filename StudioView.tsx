@@ -1,8 +1,8 @@
 
 import React, { useState, useRef } from 'react';
 import { Sparkles, Wand2, Upload, Newspaper, ShoppingBag, Share2, Wallet, X, Radio, Plus } from 'lucide-react';
-import { generateAuraImage } from '../services/geminiService';
-import { Post, Theme } from '../types';
+import { generateAuraImage } from './geminiService';
+import { Post, Theme } from './types';
 
 interface StudioViewProps {
   onNewPost: (post: Post, target: any) => void;

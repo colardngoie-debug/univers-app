@@ -1,18 +1,18 @@
 
 import React, { useState, useEffect, useRef, useMemo } from 'react';
-import FeedView from './components/FeedView';
-import PulseView from './components/PulseView';
-import StudioView from './components/StudioView';
-import ProfileView from './components/ProfileView';
-import ActualiteView from './components/ActualiteView';
-import ShopView from './components/ShopView';
-import LiveView from './components/LiveView';
-import MessengerView from './components/MessengerView';
-import CommentModal from './components/CommentModal';
-import ShareModal from './components/ShareModal';
-import RegistrationView from './components/RegistrationView';
+import FeedView from './FeedView';
+import PulseView from './PulseView';
+import StudioView from './StudioView';
+import ProfileView from './ProfileView';
+import ActualiteView from './ActualiteView';
+import ShopView from './ShopView';
+import LiveView from './LiveView';
+import MessengerView from './MessengerView';
+import CommentModal from './CommentModal';
+import ShareModal from './ShareModal';
+import RegistrationView from './RegistrationView';
 import { ViewType, Theme, Post, LangCode, Comment } from './types';
-import { supabase } from './lib/supabase';
+import { supabase } from './supabase';
 import { 
   Home, Search, Zap, PlusSquare, Bell, Newspaper, ShoppingBag, Radio, X, Heart, MessageCircle, Send
 } from 'lucide-react';

@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react';
 import { Heart, MessageCircle, Share2, MoreHorizontal, Volume2, VolumeX, X, Trash2, Download, Flag, Send } from 'lucide-react';
-import { Post } from '../types';
-import { CertifiedBadge } from '../App';
+import { Post } from './types';
+import { CertifiedBadge } from './App';
 
 interface FeedViewProps {
   posts: Post[];

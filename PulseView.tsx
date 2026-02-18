@@ -1,8 +1,8 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Heart, MessageCircle, Share2, Volume2, VolumeX, Zap } from 'lucide-react';
-import { Post } from '../types';
-import { CertifiedBadge } from '../App';
+import { Post } from './types';
+import { CertifiedBadge } from './App';
 
 interface PulseViewProps {
   reels: Post[];
